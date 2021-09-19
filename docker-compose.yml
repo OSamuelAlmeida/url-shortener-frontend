@@ -1,0 +1,9 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - ${PORT}:${PORT}
+    environment:
+      PORT: ${PORT}
+      REACT_APP_BACKEND_URL: ${REACT_APP_BACKEND_URL}

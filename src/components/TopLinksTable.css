@@ -1,0 +1,34 @@
+#top-links-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+#top-links-table h1 {
+    text-align: center;
+    flex-basis: 100%;
+}
+
+#top-links-table a {
+    text-decoration: underline;
+}
+
+#top-links-table table {
+    border: 1px #EBEBEB solid;
+    border-collapse: collapse;
+}
+
+#top-links-table table td, #top-links-table table th {
+    border: 1px solid #EBEBEB;
+    padding: 0.5em;
+}
+
+#top-links-table table tr:nth-child(even) {
+    background-color: #1D1D1D;
+}
+
+#top-links-table table th {
+    background-color: #0066E3;
+}
